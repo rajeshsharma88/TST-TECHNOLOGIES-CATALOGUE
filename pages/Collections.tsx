@@ -1,11 +1,12 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CATEGORIES } from '../constants';
+import { useData } from '../context/DataContext';
 import { ArrowRight } from 'lucide-react';
 import { ImageWithFallback } from '../components/ImageWithFallback';
 
 export const Collections: React.FC = () => {
+  const { categories } = useData();
+
   return (
     <div className="bg-slate-50 min-h-screen py-16">
       <div className="container mx-auto px-4">
@@ -17,7 +18,7 @@ export const Collections: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {CATEGORIES.map((cat) => (
+          {categories.map((cat) => (
             <Link key={cat.id} to={`/categories?id=${cat.id}`} className="group">
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-slate-100 hover:border-blue-100">
                 <div className="h-56 overflow-hidden relative">

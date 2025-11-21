@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Send, CheckCircle } from 'lucide-react';
 import { useEnquiry } from '../context/EnquiryContext';
+import { db } from '../services/db';
 
 export const EnquiryModal: React.FC = () => {
   const { isOpen, closeModal } = useEnquiry();
@@ -8,14 +9,15 @@ export const EnquiryModal: React.FC = () => {
     name: '',
     mobile: '',
     email: '',
-    company: ''
+    company: '',
+    message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
   if (!isOpen) return null;
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -23,18 +25,19 @@ export const EnquiryModal: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate API call
+    // Save to LocalStorage DB
     setTimeout(() => {
+      db.addEnquiry(formData);
       setIsSubmitting(false);
       setIsSuccess(true);
       
       // Reset and close after delay
       setTimeout(() => {
         setIsSuccess(false);
-        setFormData({ name: '', mobile: '', email: '', company: '' });
+        setFormData({ name: '', mobile: '', email: '', company: '', message: '' });
         closeModal();
       }, 3000);
-    }, 1500);
+    }, 1000);
   };
 
   return (
@@ -46,9 +49,11 @@ export const EnquiryModal: React.FC = () => {
         {/* Header */}
         <div className="bg-slate-900 p-6 flex justify-between items-center shrink-0">
           <h3 className="text-xl font-bold text-white">Enquire Now</h3>
+          {/* Updated Close Button for better visibility */}
           <button 
             onClick={closeModal} 
-            className="text-slate-400 hover:text-white transition-colors p-1 rounded-full hover:bg-slate-800"
+            className="text-white bg-white/10 hover:bg-white/20 hover:text-white transition-colors p-2 rounded-full"
+            aria-label="Close"
           >
             <X size={24} />
           </button>
@@ -121,6 +126,19 @@ export const EnquiryModal: React.FC = () => {
                   className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all placeholder:text-slate-400"
                   placeholder="Your Company Name"
                 />
+              </div>
+
+              <div>
+                <label htmlFor="message" className="block text-sm font-semibold text-slate-700 mb-1">Your Message <span className="text-slate-400 font-normal">(Optional)</span></label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows={3}
+                  value={formData.message}
+                  onChange={handleChange}
+                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all placeholder:text-slate-400 resize-none"
+                  placeholder="Tell us more about your requirements..."
+                ></textarea>
               </div>
 
               <button

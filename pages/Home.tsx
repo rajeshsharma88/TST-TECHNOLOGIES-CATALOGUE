@@ -1,13 +1,15 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Zap, Settings, Globe, Star } from 'lucide-react';
-import { CATEGORIES } from '../constants';
+import { useData } from '../context/DataContext';
 import { ImageWithFallback } from '../components/ImageWithFallback';
+import { useEnquiry } from '../context/EnquiryContext';
 
 export const Home: React.FC = () => {
-  // Display top 6 categories on home page
-  const featuredCategories = CATEGORIES.slice(0, 6);
+  const { openModal } = useEnquiry();
+  const { categories } = useData();
+  
+  const featuredCategories = categories.slice(0, 6);
 
   const testimonials = [
     {
@@ -32,7 +34,6 @@ export const Home: React.FC = () => {
 
   return (
     <div>
-      {/* Hero Section */}
       <section className="relative bg-slate-900 text-white py-24 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
            <img 
@@ -58,18 +59,17 @@ export const Home: React.FC = () => {
               >
                 Explore Collections <ArrowRight className="ml-2" size={20} />
               </Link>
-              <Link 
-                to="/contact" 
-                className="bg-transparent border-2 border-white hover:bg-white hover:text-slate-900 text-white font-semibold px-8 py-4 rounded-lg transition-colors"
+              <button 
+                onClick={openModal}
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-slate-900 text-white font-semibold px-8 py-4 rounded-lg transition-colors cursor-pointer"
               >
                 Contact Sales
-              </Link>
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -103,7 +103,6 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Categories Preview */}
       <section className="py-20 bg-slate-50 border-t border-slate-200">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-end mb-12">
@@ -143,7 +142,6 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
       <section className="py-20 bg-white border-t border-slate-200">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -175,19 +173,18 @@ export const Home: React.FC = () => {
         </div>
       </section>
       
-      {/* CTA Section */}
       <section className="bg-blue-600 py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Secure your premises today</h2>
           <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
             Contact our security experts for a customized assessment and quote for your facility.
           </p>
-          <Link 
-            to="/contact" 
-            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors"
+          <button 
+            onClick={openModal}
+            className="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-lg hover:bg-slate-100 transition-colors cursor-pointer"
           >
             Get a Quote
-          </Link>
+          </button>
         </div>
       </section>
     </div>

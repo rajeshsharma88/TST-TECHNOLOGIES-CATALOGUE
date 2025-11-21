@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronRight, Phone, Mail, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react';
+import { Menu, X, ChevronRight, Phone, Mail, MapPin, Linkedin, Facebook, Youtube, Instagram } from 'lucide-react';
 import { COMPANY_INFO } from '../constants';
 import { EnquiryModal } from './EnquiryModal';
 
@@ -90,9 +90,10 @@ const Footer: React.FC = () => {
           <h3 className="text-white text-lg font-bold mb-4">{COMPANY_INFO.name}</h3>
           <p className="mb-6 text-sm leading-relaxed">{COMPANY_INFO.aboutShort}</p>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-blue-400 transition-colors"><Linkedin size={20} /></a>
-            <a href="#" className="hover:text-blue-400 transition-colors"><Twitter size={20} /></a>
-            <a href="#" className="hover:text-blue-400 transition-colors"><Facebook size={20} /></a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors" aria-label="Facebook"><Facebook size={20} /></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors" aria-label="YouTube"><Youtube size={20} /></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors" aria-label="Instagram"><Instagram size={20} /></a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors" aria-label="LinkedIn"><Linkedin size={20} /></a>
           </div>
         </div>
 

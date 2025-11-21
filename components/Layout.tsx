@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronRight, Phone, Mail, MapPin, Linkedin, Facebook, Youtube, Instagram } from 'lucide-react';
+import { Menu, X, Phone, Mail, MapPin, Linkedin, Facebook, Youtube, Instagram } from 'lucide-react';
 import { COMPANY_INFO } from '../constants';
 import { EnquiryModal } from './EnquiryModal';
 
@@ -22,11 +22,11 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-slate-900 text-white sticky top-0 z-50 shadow-lg">
+    <nav className="bg-slate-900 text-white sticky top-0 z-[1000] shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3 z-50">
             <img 
               src="https://tsttechnologies.com/wp-content/uploads/2024/07/cropped-2-1.jpg" 
               alt="TST Technologies" 
@@ -53,12 +53,17 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center z-50">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-gray-300 focus:outline-none"
+              className="p-2 rounded-md text-white hover:bg-slate-800 border border-slate-700 focus:outline-none"
+              aria-label="Toggle menu"
             >
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
+              {isOpen ? (
+                <X size={28} color="#ffffff" strokeWidth={2.5} />
+              ) : (
+                <Menu size={28} color="#ffffff" strokeWidth={2.5} />
+              )}
             </button>
           </div>
         </div>
@@ -66,15 +71,17 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="md:hidden bg-slate-800 border-t border-slate-700">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="md:hidden fixed inset-0 top-20 bg-slate-900 border-t border-slate-800 z-[999] animate-in slide-in-from-top-5 duration-200">
+          <div className="px-4 pt-6 pb-8 space-y-3">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 onClick={() => setIsOpen(false)}
-                className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-slate-700 ${
-                   isActive(link.path) ? 'text-blue-400 bg-slate-900' : 'text-gray-300'
+                className={`block px-4 py-4 rounded-lg text-lg font-medium transition-colors ${
+                   isActive(link.path) 
+                     ? 'text-blue-400 bg-slate-800' 
+                     : 'text-gray-100 hover:bg-slate-800 hover:text-white'
                 }`}
               >
                 {link.label}
@@ -131,15 +138,15 @@ const Footer: React.FC = () => {
           <h3 className="text-white text-lg font-bold mb-4">Contact Us</h3>
           <ul className="space-y-3 text-sm">
             <li className="flex items-start space-x-3">
-              <MapPin size={18} className="text-blue-500 mt-0.5" />
+              <MapPin size={18} className="text-blue-500 mt-0.5 flex-shrink-0" />
               <span>{COMPANY_INFO.address}</span>
             </li>
             <li className="flex items-center space-x-3">
-              <Phone size={18} className="text-blue-500" />
+              <Phone size={18} className="text-blue-500 flex-shrink-0" />
               <span>{COMPANY_INFO.phone}</span>
             </li>
             <li className="flex items-center space-x-3">
-              <Mail size={18} className="text-blue-500" />
+              <Mail size={18} className="text-blue-500 flex-shrink-0" />
               <span>{COMPANY_INFO.email}</span>
             </li>
           </ul>

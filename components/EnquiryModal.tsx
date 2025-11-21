@@ -25,13 +25,11 @@ export const EnquiryModal: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Save to LocalStorage DB
     setTimeout(() => {
       db.addEnquiry(formData);
       setIsSubmitting(false);
       setIsSuccess(true);
       
-      // Reset and close after delay
       setTimeout(() => {
         setIsSuccess(false);
         setFormData({ name: '', mobile: '', email: '', company: '', message: '' });
@@ -41,23 +39,23 @@ export const EnquiryModal: React.FC = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/80 backdrop-blur-sm animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-[2000] flex items-center justify-center p-4 bg-slate-900/90 backdrop-blur-sm animate-in fade-in duration-200">
       <div 
         className="bg-white rounded-2xl shadow-2xl w-full max-w-md relative overflow-hidden flex flex-col max-h-[90vh]"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header */}
-        <div className="bg-slate-900 p-6 flex justify-between items-center shrink-0 border-b border-slate-800">
+        {/* Header - using flex to position content and button */}
+        <div className="bg-slate-900 p-5 flex items-center justify-between shrink-0 border-b border-slate-800">
           <h3 className="text-xl font-bold text-white">Enquire Now</h3>
-          {/* Close Button - White Background Circle for Visibility */}
+          
+          {/* Close Button - White background circle with dark X icon */}
           <button 
             onClick={closeModal} 
-            className="bg-white hover:bg-gray-200 text-slate-900 rounded-full p-1 transition-colors shadow-md flex items-center justify-center"
-            aria-label="Close Popup"
+            className="flex items-center justify-center w-8 h-8 bg-white rounded-full hover:bg-gray-200 transition-colors focus:outline-none shadow-md"
+            aria-label="Close"
             type="button"
-            style={{ width: '32px', height: '32px' }}
           >
-            <X size={20} strokeWidth={3} />
+            <X size={20} color="#0f172a" strokeWidth={3} />
           </button>
         </div>
 

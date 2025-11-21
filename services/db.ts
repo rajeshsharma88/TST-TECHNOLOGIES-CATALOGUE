@@ -20,20 +20,25 @@ export interface Enquiry {
 
 export const db = {
   init: () => {
-    // Force update products and categories to match the latest code constants
-    // This fixes the issue where old data persists in the browser
-    localStorage.setItem(KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
-    localStorage.setItem(KEYS.CATEGORIES, JSON.stringify(INITIAL_CATEGORIES));
+    // CRITICAL: Always overwrite products and categories from constants on app load.
+    // This ensures that code changes to the product list (like new images/names) 
+    // are immediately reflected in the app, overriding any stale cache.
+    try {
+      localStorage.setItem(KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
+      localStorage.setItem(KEYS.CATEGORIES, JSON.stringify(INITIAL_CATEGORIES));
 
-    // Only initialize enquiries if missing, to preserve user submitted data
-    if (!localStorage.getItem(KEYS.ENQUIRIES)) {
-      localStorage.setItem(KEYS.ENQUIRIES, JSON.stringify([]));
+      // Initialize enquiries array only if it doesn't exist (persist user data)
+      if (!localStorage.getItem(KEYS.ENQUIRIES)) {
+        localStorage.setItem(KEYS.ENQUIRIES, JSON.stringify([]));
+      }
+    } catch (e) {
+      console.error("Failed to initialize DB", e);
     }
   },
 
   getProducts: (): Product[] => {
     const data = localStorage.getItem(KEYS.PRODUCTS);
-    return data ? JSON.parse(data) : [];
+    return data ? JSON.parse(data) : INITIAL_PRODUCTS;
   },
 
   saveProduct: (product: Product) => {
@@ -54,7 +59,7 @@ export const db = {
 
   getCategories: (): Category[] => {
     const data = localStorage.getItem(KEYS.CATEGORIES);
-    return data ? JSON.parse(data) : [];
+    return data ? JSON.parse(data) : INITIAL_CATEGORIES;
   },
 
   getEnquiries: (): Enquiry[] => {
@@ -75,5 +80,5 @@ export const db = {
   }
 };
 
-// Initialize database on load
+// Execute initialization immediately
 db.init();

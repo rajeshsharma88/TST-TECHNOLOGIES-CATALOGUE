@@ -30,6 +30,7 @@ export const ProductDetail: React.FC = () => {
   return (
     <div className="bg-white min-h-screen py-12">
       <div className="container mx-auto px-4">
+        {/* Breadcrumb */}
         <div className="flex items-center text-sm text-slate-500 mb-8">
           <Link to="/" className="hover:text-blue-600 transition-colors">Home</Link>
           <ChevronRight size={16} className="mx-2 text-slate-400" />
@@ -39,6 +40,7 @@ export const ProductDetail: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+          {/* Image */}
           <div className="bg-slate-50 rounded-2xl p-8 flex items-center justify-center">
             <ImageWithFallback 
               src={product.imageUrl} 
@@ -47,6 +49,7 @@ export const ProductDetail: React.FC = () => {
             />
           </div>
 
+          {/* Info */}
           <div>
             <Link to={`/categories?id=${product.categoryId}`} className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold tracking-wide uppercase mb-4 hover:bg-blue-200 transition-colors">
               {category?.name}
@@ -73,6 +76,7 @@ export const ProductDetail: React.FC = () => {
               >
                 Enquire Now <ArrowRight size={20} className="ml-2" />
               </button>
+              {/* Book A Demo Button */}
               <button 
                 onClick={openModal}
                 className="flex-1 border-2 border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700 font-bold py-4 px-8 rounded-lg transition-colors flex items-center justify-center"
@@ -83,6 +87,7 @@ export const ProductDetail: React.FC = () => {
           </div>
         </div>
 
+        {/* Specs */}
         <div className="border-t border-slate-200 pt-16">
           <h2 className="text-2xl font-bold text-slate-900 mb-8">Technical Specifications</h2>
           <div className="bg-slate-50 rounded-xl overflow-hidden border border-slate-200 max-w-3xl">
@@ -99,6 +104,7 @@ export const ProductDetail: React.FC = () => {
           </div>
         </div>
         
+        {/* Assurance */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex items-start">
                 <Shield className="text-blue-600 mt-1 mr-4" size={24} />

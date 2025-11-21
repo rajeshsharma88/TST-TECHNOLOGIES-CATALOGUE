@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useData } from '../../context/DataContext';
 import { Plus, Edit, Trash2, Search, X } from 'lucide-react';
 import { Product } from '../../types';
+import { ImageWithFallback } from '../../components/ImageWithFallback';
 
 export const AdminProducts: React.FC = () => {
   const { products, categories, addProduct, deleteProduct } = useData();
@@ -91,6 +92,7 @@ export const AdminProducts: React.FC = () => {
         <table className="w-full text-left">
           <thead className="bg-slate-50 text-slate-600 font-semibold border-b border-slate-200">
             <tr>
+              <th className="p-4">Image</th>
               <th className="p-4">Name</th>
               <th className="p-4">Category</th>
               <th className="p-4">Price</th>
@@ -100,6 +102,15 @@ export const AdminProducts: React.FC = () => {
           <tbody className="divide-y divide-slate-100">
             {filteredProducts.map(product => (
               <tr key={product.id} className="hover:bg-slate-50">
+                <td className="p-4">
+                  <div className="w-12 h-12 rounded-md overflow-hidden border border-slate-200 bg-slate-50">
+                    <ImageWithFallback 
+                      src={product.imageUrl} 
+                      alt={product.name} 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </td>
                 <td className="p-4 font-medium text-slate-900">{product.name}</td>
                 <td className="p-4 text-slate-600">
                   {categories.find(c => c.id === product.categoryId)?.name || product.categoryId}

@@ -1,11 +1,10 @@
-
 import { Category, Product } from './types';
 
 export const COMPANY_INFO = {
   name: 'TST Technologies',
-  address: 'Tech Valley, Silicon City',
-  phone: '+1 (555) 123-4567',
-  email: 'sales@tsttechnologies.com',
+  address: 'F-34, FF, Arora Shoppers Park, Shakti Khand II, Indirapuram',
+  phone: '+91-78360 99111',
+  email: 'info@tsttechnologies.co.in',
   aboutShort: 'Leading provider of advanced security and automation solutions.',
   aboutLong: `TST Technologies has been at the forefront of the security and automation industry since 2003. 
   

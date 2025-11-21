@@ -41,21 +41,22 @@ export const EnquiryModal: React.FC = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/80 backdrop-blur-sm animate-in fade-in duration-200">
       <div 
         className="bg-white rounded-2xl shadow-2xl w-full max-w-md relative overflow-hidden flex flex-col max-h-[90vh]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="bg-slate-900 p-6 flex justify-between items-center shrink-0">
+        <div className="bg-slate-900 p-6 flex justify-between items-center shrink-0 border-b border-slate-800">
           <h3 className="text-xl font-bold text-white">Enquire Now</h3>
-          {/* Updated Close Button for better visibility */}
+          {/* Close Button - High Contrast & Large */}
           <button 
             onClick={closeModal} 
-            className="text-white bg-white/10 hover:bg-white/20 hover:text-white transition-colors p-2 rounded-full"
-            aria-label="Close"
+            className="text-white hover:text-gray-300 transition-colors p-1"
+            aria-label="Close Popup"
+            type="button"
           >
-            <X size={24} />
+            <X size={32} strokeWidth={3} />
           </button>
         </div>
 

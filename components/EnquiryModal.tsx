@@ -49,14 +49,15 @@ export const EnquiryModal: React.FC = () => {
         {/* Header */}
         <div className="bg-slate-900 p-6 flex justify-between items-center shrink-0 border-b border-slate-800">
           <h3 className="text-xl font-bold text-white">Enquire Now</h3>
-          {/* Close Button - High Contrast & Large */}
+          {/* Close Button - White Background Circle for Visibility */}
           <button 
             onClick={closeModal} 
-            className="text-white hover:text-gray-300 transition-colors p-1"
+            className="bg-white hover:bg-gray-200 text-slate-900 rounded-full p-1 transition-colors shadow-md flex items-center justify-center"
             aria-label="Close Popup"
             type="button"
+            style={{ width: '32px', height: '32px' }}
           >
-            <X size={32} strokeWidth={3} />
+            <X size={20} strokeWidth={3} />
           </button>
         </div>
 

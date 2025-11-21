@@ -26,9 +26,15 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-blue-600 rounded flex items-center justify-center font-bold text-xl">T</div>
-            <span className="text-2xl font-bold tracking-tight">TST <span className="text-blue-400">Technologies</span></span>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="https://tsttechnologies.com/wp-content/uploads/2024/07/cropped-2-1.jpg" 
+              alt="TST Technologies" 
+              className="h-12 w-auto object-contain bg-white rounded-md p-1"
+            />
+            <span className="text-xl font-bold tracking-tight hidden sm:block">
+              TST <span className="text-blue-400">Technologies</span>
+            </span>
           </Link>
 
           {/* Desktop Nav */}
@@ -50,7 +56,7 @@ const Navbar: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-300 hover:text-white focus:outline-none"
+              className="text-white hover:text-gray-300 focus:outline-none"
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>

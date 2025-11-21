@@ -20,12 +20,12 @@ export interface Enquiry {
 
 export const db = {
   init: () => {
-    if (!localStorage.getItem(KEYS.PRODUCTS)) {
-      localStorage.setItem(KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
-    }
-    if (!localStorage.getItem(KEYS.CATEGORIES)) {
-      localStorage.setItem(KEYS.CATEGORIES, JSON.stringify(INITIAL_CATEGORIES));
-    }
+    // Force update products and categories to match the latest code constants
+    // This fixes the issue where old data persists in the browser
+    localStorage.setItem(KEYS.PRODUCTS, JSON.stringify(INITIAL_PRODUCTS));
+    localStorage.setItem(KEYS.CATEGORIES, JSON.stringify(INITIAL_CATEGORIES));
+
+    // Only initialize enquiries if missing, to preserve user submitted data
     if (!localStorage.getItem(KEYS.ENQUIRIES)) {
       localStorage.setItem(KEYS.ENQUIRIES, JSON.stringify([]));
     }
@@ -75,4 +75,5 @@ export const db = {
   }
 };
 
+// Initialize database on load
 db.init();

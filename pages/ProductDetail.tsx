@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useData } from '../context/DataContext';
-import { ArrowLeft, Check, FileText, Shield, ArrowRight, ChevronRight } from 'lucide-react';
+import { ArrowLeft, Check, FileText, Shield, ArrowRight, ChevronRight, Calendar } from 'lucide-react';
 import { ImageWithFallback } from '../components/ImageWithFallback';
 import { useEnquiry } from '../context/EnquiryContext';
 
@@ -73,8 +73,11 @@ export const ProductDetail: React.FC = () => {
               >
                 Enquire Now <ArrowRight size={20} className="ml-2" />
               </button>
-              <button className="flex-1 border-2 border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700 font-bold py-4 px-8 rounded-lg transition-colors flex items-center justify-center">
-                <FileText size={20} className="mr-2" /> Download Datasheet
+              <button 
+                onClick={openModal}
+                className="flex-1 border-2 border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-700 font-bold py-4 px-8 rounded-lg transition-colors flex items-center justify-center"
+              >
+                <Calendar size={20} className="mr-2" /> Book A Demo
               </button>
             </div>
           </div>

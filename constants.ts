@@ -21,109 +21,109 @@ export const CATEGORIES: Category[] = [
     id: 'uhf-rfid',
     name: 'UHF RFID Reader',
     description: 'Long-range identification solutions for parking and logistics.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/U5-300x300-1.png',
+    imageUrl: '/images/U5-300x300-1.png',
   },
   {
     id: 'canteen',
     name: 'Canteen Management',
     description: 'Automated meal management systems for corporate dining.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/LP400-1.png',
+    imageUrl: '/images/LP400-1.png',
   },
   {
     id: 'face',
     name: 'Face Recognition',
     description: 'Advanced facial recognition terminals for secure and hygienic access.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/venus.png',
+    imageUrl: '/images/venus.png',
   },
   {
     id: 'finger-print',
     name: 'Finger Print',
     description: 'Biometric fingerprint access control and time attendance systems.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/F18.png',
+    imageUrl: '/images/F18.png',
   },
   {
     id: 'flap-barrier',
     name: 'Flap Barrier',
     description: 'Retractable flap barriers for pedestrian access control.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FBTL2000.png',
+    imageUrl: '/images/FBTL2000.png',
   },
   {
     id: 'swing-barrier',
     name: 'Swing Barriers',
     description: 'Motorized swing gates for elegant entrance control.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SB-Q-3000.png',
+    imageUrl: '/images/SB-Q-3000.png',
   },
   {
     id: 'guard-patrol',
     name: 'Guard Patrol',
     description: 'Monitoring systems to ensure security personnel patrols.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/Fingerprint-Guard-Patrol-1.png',
+    imageUrl: '/images/Fingerprint-Guard-Patrol-1.png',
   },
   {
     id: 'turnstiles',
     name: 'Turnstiles',
     description: 'Tripod and full-height turnstiles for crowd control.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/ET1000.png',
+    imageUrl: '/images/ET1000.png',
   },
   {
     id: 'boom-barrier',
     name: 'Boom Barrier',
     description: 'Automatic vehicle access control barriers.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/BG-BDC-RL-100.png',
+    imageUrl: '/images/BG-BDC-RL-100.png',
   },
   {
     id: 'tyre-killer',
     name: 'Tyre Killer',
     description: 'High-security vehicle spikes for hostile vehicle mitigation.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/TK-300.png',
+    imageUrl: '/images/TK-300.png',
   },
   {
     id: 'baggage-scanner',
     name: 'Baggage Scanner',
     description: 'X-Ray inspection systems for luggage and parcel screening.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/eBS-5030A.png',
+    imageUrl: '/images/eBS-5030A.png',
   },
   {
     id: 'metal-detector',
     name: 'Metal Detector',
     description: 'Walk-through and hand-held metal detection units.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D2401.png',
+    imageUrl: '/images/D2401.png',
   },
   {
     id: 'elevator-control',
     name: 'Elevator Control',
     description: 'Secure floor access control systems for lifts.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EC10-EX16.png',
+    imageUrl: '/images/EC10-EX16.png',
   },
   {
     id: 'multi-door',
     name: 'Multi Door Controller',
     description: 'Centralized access control panels for multiple entry points.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/inBio-460.png',
+    imageUrl: '/images/inBio-460.png',
   },
   {
     id: 'hotel-lock',
     name: 'Hotel Lock',
     description: 'RFID card locks designed for hospitality.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/HL100.png',
+    imageUrl: '/images/HL100.png',
   },
   {
     id: '7-series',
     name: '7-Series EM Locks',
     description: 'Electromagnetic locks and buttons (7-Series).',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EML600-7-2-1.png',
+    imageUrl: '/images/EML600-7-2-1.png',
   },
   {
     id: '8-series',
     name: '8-Series EM Locks',
     description: 'Advanced electromagnetic locks and buttons (8-Series).',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EML600-7-5.png',
+    imageUrl: '/images/EML600-7-5.png',
   },
   {
     id: 'boom-gate',
     name: 'Boom Gate',
     description: 'Heavy-duty gates for industrial traffic management.',
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/BG-BDC-RL-100.png',
+    imageUrl: '/images/BG-BDC-RL-100.png',
   }
 ];
 
@@ -136,7 +136,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `KR500E is a robust 125 KHz Proximity card reader designed for durability and performance. Features include a read range of up to 10CM, Wiegand connectivity, and IP68 waterproof ABS case.`,
     price: 'Request Quote',
     features: ['Reading Range : 3-8cm', 'Humidity : 10% to 90% RH', 'Door Opening Time : 0-99s', 'IP68 Waterproof'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/08/KR500-E-2.png',
+    imageUrl: '/images/KR500-E-2.png',
     specifications: { 'Dimensions': '109*47*20mm', 'Power': 'DC 6-14V / Max.70mA' }
   },
   {
@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `The JS-500E is a versatile RFID reader supporting EM/HD cards. It features an ABS case, IP68 waterproof rating, and WG26/34 output.`,
     price: 'Request Quote',
     features: ['Card type : EM/HD', 'Working voltage : DC12V+10%', 'Reading Range : 3-8cm'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/JS-500E-2.png',
+    imageUrl: '/images/JS-500E-2.png',
     specifications: { 'Dimensions': '109*47*20mm', 'Humidity': '10% to 90% RH' }
   },
   {
@@ -158,7 +158,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `High performance UHF reader supporting ISO18000-6C protocol. Features adjustable RF power and high sensitivity for reliable detection.`,
     price: 'Request Quote',
     features: ['Frequency: 902-928MHz (US), 865-868MHz (EU)', 'Protocol: ISO18000-6C, EPC G2', 'RF Power: 0-31dBm adjustable'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/U5-300x300-1.png',
+    imageUrl: '/images/U5-300x300-1.png',
     specifications: { 'Dimension': '280 x 280 x 68.5 mm', 'Working Temp': '-20°C ~ 60°C' }
   },
   {
@@ -169,7 +169,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact Mifare card reader with RS485 communication. Ideal for secure access control applications requiring fast reading times.`,
     price: 'Request Quote',
     features: ['Read Range: Up to 5CM', 'Communication: RS485', 'Reading Time: ≤300ms'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/KR503-M.png',
+    imageUrl: '/images/KR503-M.png',
     specifications: { 'Dimension': '116 x 75 x 17.3mm', 'Power': 'DC 6-14V / Max.70mA' }
   },
   {
@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Reliable proximity card reader featuring RS485 communication and a read range of up to 10cm. Includes LED indicators and beeper.`,
     price: 'Request Quote',
     features: ['Read Range: Up to 10CM', 'Communication: RS485', 'IP65 Protection'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/KR503-E.png',
+    imageUrl: '/images/KR503-E.png',
     specifications: { 'Dimension': '116 x 75 x 17.3mm', 'Operating Temp': '-20°C to +65°C' }
   },
   {
@@ -191,7 +191,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Mifare card reader with Wiegand connectivity. Compact design suitable for various architectural styles.`,
     price: 'Request Quote',
     features: ['Read Range: Up to 5CM', 'Connectivity: Wiegand', 'Reading Time: ≤200ms'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/KR500-M.png',
+    imageUrl: '/images/KR500-M.png',
     specifications: { 'Weight': '50g', 'Power': 'DC 6-14V' }
   },
   {
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Standalone device supporting Card, PIN, or Card & PIN access. Includes relay output and doorbell port.`,
     price: 'Request Quote',
     features: ['Storage: 1000 users', 'Operating voltage: DC 12V', 'Card Reading Distance: 1-15CM'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SA32-M.png',
+    imageUrl: '/images/SA32-M.png',
     specifications: { 'Dimensions': '121x78x23mm', 'Weight': '110g' }
   },
   {
@@ -213,7 +213,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Robust standalone access control supporting 1000 users. Features multiple access modes and durable construction.`,
     price: 'Request Quote',
     features: ['Access by Card, PIN, or Both', '1 Relay output', 'Doorbell Port'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SA32-E.png',
+    imageUrl: '/images/SA32-E.png',
     specifications: { 'Dimensions': '121x78x23mm', 'Storage': '1000 users' }
   },
   {
@@ -224,7 +224,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Standalone access control unit with keypad and proximity reader. Supports 2000 users and Wiegand 26 input/output.`,
     price: 'Request Quote',
     features: ['Capacity: 2000 users', 'Access Way: Pin, Card, Pin+Card', 'Wiegand 26 I/O'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/js32.png',
+    imageUrl: '/images/js32.png',
     specifications: { 'Dimensions': '115*75*16mm', 'Reading Range': '3-8cm' }
   },
   {
@@ -235,7 +235,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Durable Mifare reader with ABS case and IP68 waterproof rating. Suitable for outdoor installation.`,
     price: 'Request Quote',
     features: ['Waterproof IP68', 'WG26/34 Output', 'Short-circuit Protect'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/JS-500E-2.png',
+    imageUrl: '/images/JS-500E-2.png',
     specifications: { 'Dimensions': '109*47*20mm', 'Working Voltage': 'DC12V' }
   },
   {
@@ -246,7 +246,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Versatile access control device supporting 2000 users. Features password and card verification modes.`,
     price: 'Request Quote',
     features: ['User Capacity: 2000', 'Password Capacity: 2000', 'Verification: Card/Password'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SA40.png',
+    imageUrl: '/images/SA40.png',
     specifications: { 'Dimensions': '103.5*86*19mm', 'Frequency': '125kHz / 13.56MHz' }
   },
   {
@@ -257,7 +257,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Comprehensive time attendance system with 30,000 card capacity. Supports WiFi/GPRS and features a 2.8-inch TFT display.`,
     price: 'Request Quote',
     features: ['Card Storage: 30,000', 'Transaction Capacity: 100,000', 'Communication: TCP/IP, RS232/485, WiFi'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/S990A-removebg-preview.png',
+    imageUrl: '/images/S990A-removebg-preview.png',
     specifications: { 'Dimensions': '210x157x40mm', 'CPU': '32 bit 800MHz' }
   },
   {
@@ -268,7 +268,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Efficient time attendance system with access control capabilities. Supports 30,000 cards and 50,000 logs.`,
     price: 'Request Quote',
     features: ['Read Range: 8-10cm', 'Access Control Functionality', 'Users: 30,000 Cards'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/Sc503.png',
+    imageUrl: '/images/Sc503.png',
     specifications: { 'Dimensions': '143x95.5x39.5mm', 'Communication': 'TCP/IP, RS232/485' }
   },
   {
@@ -279,7 +279,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Desktop UHF reader/writer for card issuance. Supports encrypted UHF tags and keyboard emulation output.`,
     price: 'Request Quote',
     features: ['Encrypted UHF Tag Support', 'USB Analog Keyboard Output', 'Read Distance: 20-40cm'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/UR10R-1E-and-UR10R-1F.png',
+    imageUrl: '/images/UR10R-1E-and-UR10R-1F.png',
     specifications: { 'Dimensions': '107*107*23mm', 'Frequency': '865-868MHz / 902-928MHz' }
   },
   {
@@ -290,7 +290,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Long-range UHF reader with 12dBi antenna for superior sensitivity. Ideal for vehicle access control.`,
     price: 'Request Quote',
     features: ['Protocol: ISO18000-6C', 'RF Power: 0-31dBm Adjustable', 'Sensitivity: -80dBm'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/U10.png',
+    imageUrl: '/images/U10.png',
     specifications: { 'Dimension': '440x440x68.6mm', 'Processor': 'ARM Cortex M3' }
   },
   {
@@ -301,7 +301,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Specialized canteen management terminal with built-in thermal printer. Supports fingerprint verification and meal tracking.`,
     price: 'Request Quote',
     features: ['Built-in Thermal Printer', '3000 Templates', '100,000 Transactions', '3-inch TFT Screen'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/LP400-1.png',
+    imageUrl: '/images/LP400-1.png',
     specifications: { 'Dimensions': '171x284x120mm', 'Power': '12V DC 3A' }
   },
   {
@@ -312,7 +312,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Advanced facial recognition with 5-inch touch screen. Features anti-spoofing algorithm and wide pose angle acceptance.`,
     price: 'Request Quote',
     features: ['Face Capacity: 6000', 'Visible Light Recognition', 'Anti-spoofing', 'WiFi Optional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/venus.png',
+    imageUrl: '/images/venus.png',
     specifications: { 'Dimensions': '100*203.3*24.5mm', 'OS': 'Linux' }
   },
   {
@@ -323,7 +323,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Versatile terminal supporting face and fingerprint verification. 4.3-inch touch screen for intuitive operation.`,
     price: 'Request Quote',
     features: ['Face Capacity: 3000', 'Fingerprint Capacity: 4000', 'Backup Battery Optional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SFace900.png',
+    imageUrl: '/images/SFace900.png',
     specifications: { 'Dimensions': '195.5*166.5*120mm', 'Display': '4.3-Inch Touch' }
   },
   {
@@ -334,7 +334,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Face and ID card time attendance system. High verification speed and advanced UI.`,
     price: 'Request Quote',
     features: ['Face Capacity: 3000', 'ID Card Capacity: 10,000', 'Push Data Support'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/uFace301.png',
+    imageUrl: '/images/uFace301.png',
     specifications: { 'Dimensions': '193.6x165.2x86mm', 'Comm': 'TCP/IP, RS232/485' }
   },
   {
@@ -345,7 +345,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact device with Face, Fingerprint, RFID and Password verification. Supports 500 faces and 1000 users.`,
     price: 'Request Quote',
     features: ['Face Capacity: 500', 'Fingerprint Capacity: 2000', 'TCP/IP Connectivity'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/mb20.png',
+    imageUrl: '/images/mb20.png',
     specifications: { 'Dimensions': '161.93x152.82x30.59mm', 'Power': 'DC 5V 0.8A' }
   },
   {
@@ -356,7 +356,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Supports 1500 faces and 2000 fingerprints. Professional firmware with flexible features.`,
     price: 'Request Quote',
     features: ['Face Capacity: 1500', 'Verification Speed: ≤0.5 Sec', 'Access Control Interface'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/mb160.png',
+    imageUrl: '/images/mb160.png',
     specifications: { 'Dimensions': '167.5x148.8x32.2mm', 'Power': 'DC 12V 1.5A' }
   },
   {
@@ -367,7 +367,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Features SilkID fingerprint sensor for wet/dry finger detection and face recognition. 2000 face capacity.`,
     price: 'Request Quote',
     features: ['Face Capacity: 2000', 'SilkID Sensor', 'Built-in Battery'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/silkbio101tc.png',
+    imageUrl: '/images/silkbio101tc.png',
     specifications: { 'Dimensions': '180x154x34.2mm', 'Display': '2.8 inch TFT' }
   },
   {
@@ -378,7 +378,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `High capacity terminal with 3000 faces and 4000 fingerprints. 4.3-inch touch screen.`,
     price: 'Request Quote',
     features: ['Face Capacity: 3000', 'Fingerprint Capacity: 4000', 'Battery Backup Optional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/uFace-302.png',
+    imageUrl: '/images/uFace-302.png',
     specifications: { 'Dimensions': '193.6x165.2x86mm', 'Comm': 'TCP/IP, WiFi' }
   },
   {
@@ -389,7 +389,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Supports up to 6000 faces and 10,000 fingerprints. Powerful CPU for fast matching.`,
     price: 'Request Quote',
     features: ['Face Capacity: 6000', 'Fingerprint Capacity: 10,000', '1.2GHz CPU'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/eFace-990.png',
+    imageUrl: '/images/eFace-990.png',
     specifications: { 'Display': '4.3 Inch Touch', 'Memory': '1GB RAM' }
   },
   {
@@ -400,7 +400,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Robust outdoor terminal with 5-inch screen. IP65 rated for water and dust resistance.`,
     price: 'Request Quote',
     features: ['Face Capacity: 6,000', 'IP65 Water Resistant', 'Visible Light Recognition'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/AiFace-Jupiter.png',
+    imageUrl: '/images/AiFace-Jupiter.png',
     specifications: { 'Dimensions': '134.93*166.93*21.5mm', 'OS': 'Linux' }
   },
   {
@@ -411,7 +411,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Sleek design with 2.8-inch screen. Supports 500 faces and 2000 fingerprints.`,
     price: 'Request Quote',
     features: ['Face Capacity: 500', 'Fingerprint Capacity: 2000', 'Stereo Speaker'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/Uranus.png',
+    imageUrl: '/images/Uranus.png',
     specifications: { 'Dimensions': '167.9x151.5x30mm', 'Power': 'DC 5V 0.8A' }
   },
   {
@@ -422,7 +422,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Efficient visible light facial recognition with 500 face capacity. Compact 4.3-inch touch screen.`,
     price: 'Request Quote',
     features: ['Face Capacity: 500', 'User Capacity: 1,000', 'Visible Light Recognition'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/Neptune.png',
+    imageUrl: '/images/Neptune.png',
     specifications: { 'Dimensions': '130*119*28mm', 'Speed': '≤1s' }
   },
   {
@@ -433,7 +433,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `WiFi-ready terminal with 800 face capacity. 2.8-inch touch screen and WDR camera.`,
     price: 'Request Quote',
     features: ['Face Capacity: 800', 'WiFi Connectivity', 'WDR Low Light Camera'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/venus-1.png',
+    imageUrl: '/images/venus-1.png',
     specifications: { 'Dimensions': '100*100.2*23.7mm', 'Power': '5V/2A' }
   },
   {
@@ -444,7 +444,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Supports 1000 faces and cards. Dual core CPU for fast processing.`,
     price: 'Request Quote',
     features: ['Face Capacity: 1000', '4-inch Touch Screen', 'Linux OS'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/venus-2.png',
+    imageUrl: '/images/venus-2.png',
     specifications: { 'Dimensions': '72.94*157.94*23mm', 'Weight': '260g' }
   },
   {
@@ -455,7 +455,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `High performance terminal with 3000 face capacity. Supports WiFi and various card modules.`,
     price: 'Request Quote',
     features: ['Face Capacity: 3000', '5-inch Touch Screen', 'WiFi Optional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/mars.png',
+    imageUrl: '/images/mars.png',
     specifications: { 'Dimensions': '91.93*202.93*21.5mm', 'OS': 'Linux' }
   },
   {
@@ -466,7 +466,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Embedded AI face recognition with 50,000 face capacity. 2.8 inch screen.`,
     price: 'Request Quote',
     features: ['Face Capacity: 50,000', 'Transactions: 50,000', 'IR Fill Light'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/MU-AI-9.png',
+    imageUrl: '/images/MU-AI-9.png',
     specifications: { 'Dimensions': '94x94x17mm', 'WiFi': 'Support 2.4ghz' }
   },
   {
@@ -477,7 +477,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Outdoor ready with IP65 rating. Supports 1500 faces and 5000 fingerprints.`,
     price: 'Request Quote',
     features: ['IP65 Rated', 'Face Capacity: 1500', 'Fingerprint Capacity: 5000'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/Aiface-Magnum.png',
+    imageUrl: '/images/Aiface-Magnum.png',
     specifications: { 'Dimensions': '185*58.5*20mm', 'Temp': '-5°C to 45°C' }
   },
   {
@@ -488,7 +488,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Advanced multimodal recognition with iris and face scanning. 50,000 face capacity.`,
     price: 'Request Quote',
     features: ['Face Capacity: 50,000', 'Iris Recognition', 'Temp Measurement'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EyeFace-99.png',
+    imageUrl: '/images/EyeFace-99.png',
     specifications: { 'Camera': '800x1280', 'Comm': 'WiFi, TCP/IP' }
   },
   {
@@ -499,7 +499,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Fingerprint time attendance with built-in thermal printer. 3000 template capacity.`,
     price: 'Request Quote',
     features: ['Built-in Thermal Printer', '3000 Templates', 'Battery Backup'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/LP400.png',
+    imageUrl: '/images/LP400.png',
     specifications: { 'Dimensions': '171x284x120mm', 'Screen': '3 inch TFT' }
   },
   {
@@ -510,7 +510,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Enterprise grade fingerprint system with 40,000 user capacity. 3.5 inch TFT display.`,
     price: 'Request Quote',
     features: ['Users: 40,000', 'Fingerprint Capacity: 40,000', 'Push Data Inbuilt'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/iClock-990.png',
+    imageUrl: '/images/iClock-990.png',
     specifications: { 'Dimensions': '210x157x40mm', 'Power': 'DC 12V 3A' }
   },
   {
@@ -521,7 +521,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact fingerprint reader for access control. 3000 fingerprint capacity.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 3000', 'Access Control Interface', 'TCP/IP, RS485'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/F18.png',
+    imageUrl: '/images/F18.png',
     specifications: { 'Dimensions': '183x80x42mm', 'Power': 'DC 12V 1.5A' }
   },
   {
@@ -532,7 +532,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Popular standalone fingerprint time attendance. 10,000 fingerprint capacity.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 10,000', 'Battery Backup', 'WiFi/GPRS Optional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/x990.png',
+    imageUrl: '/images/x990.png',
     specifications: { 'Dimensions': '210x157x40mm', 'Display': '3 Inch Color TFT' }
   },
   {
@@ -543,7 +543,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Sleek design with SilkID sensor. WiFi enabled for easy connectivity.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 3000', 'Built-in WiFi', 'SilkID Sensor'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/F22.png',
+    imageUrl: '/images/F22.png',
     specifications: { 'Dimensions': '158.5x78.0x19.4mm', 'Power': 'DC 12V 1.5A' }
   },
   {
@@ -554,7 +554,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact IP based fingerprint terminal. 1500 fingerprint capacity.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 1500', 'TCP/IP, RS485', 'Wiegand Output'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SF100.png',
+    imageUrl: '/images/SF100.png',
     specifications: { 'Dimensions': '90x90x34.5mm', 'Display': '2.4 TFT' }
   },
   {
@@ -565,7 +565,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Entry level fingerprint time attendance. 2000 user capacity with battery backup.`,
     price: 'Request Quote',
     features: ['User Capacity: 2000', 'Inbuilt Battery', 'SSR Recorder'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/K30.png',
+    imageUrl: '/images/K30.png',
     specifications: { 'Dimensions': '185x140x30mm', 'Power': '12V DC 1.5A' }
   },
   {
@@ -576,7 +576,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `RS485 slave reader for capturing fingerprints. IP65 rated for outdoor use.`,
     price: 'Request Quote',
     features: ['RS485 Communication', 'IP65 Waterproof', 'Compact Design'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FR1200.png',
+    imageUrl: '/images/FR1200.png',
     specifications: { 'Dimensions': '48x100x37mm', 'Temp': '0°C - 45°C' }
   },
   {
@@ -587,7 +587,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Innovative biometric fingerprint reader for access control applications. Simple and reliable.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 500', 'Card Capacity: 500', 'Electric Lock Support'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/x7.png',
+    imageUrl: '/images/x7.png',
     specifications: { 'Dimensions': '88x88x35mm', 'Power': '12V DC 3A' }
   },
   {
@@ -598,7 +598,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Advanced terminal supporting Palm and Fingerprint recognition. 600 palm capacity.`,
     price: 'Request Quote',
     features: ['Palm Capacity: 600', 'Fingerprint Capacity: 3000', 'POE Optional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/P160.png',
+    imageUrl: '/images/P160.png',
     specifications: { 'Dimensions': '179.95x134.94x38.5mm', 'Display': '2.8-inch TFT' }
   },
   {
@@ -609,7 +609,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Time attendance terminal featuring SilkID sensor for superior performance with dry/wet fingers.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 3000', 'SilkID Sensor', 'USB Host & Client'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SilkFP-101TA.png',
+    imageUrl: '/images/SilkFP-101TA.png',
     specifications: { 'Dimensions': '192x140x42.5mm', 'Power': 'DC 5V' }
   },
   {
@@ -620,7 +620,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `WiFi enabled fingerprint terminal. Ideal for small offices without network cabling.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 1000', 'WiFi Standard', 'SSR Excel Reports'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/WL20.png',
+    imageUrl: '/images/WL20.png',
     specifications: { 'Dimensions': '165x133x21mm', 'Power': 'DC 5V' }
   },
   {
@@ -631,7 +631,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `User friendly time attendance with 3 inch screen. 3000 fingerprint capacity.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 3000', 'Webserver', 'TCP/IP USB'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/ua300.png',
+    imageUrl: '/images/ua300.png',
     specifications: { 'Dimensions': '180x135x37mm', 'Power': '5V DC 2A' }
   },
   {
@@ -642,7 +642,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Reliable fingerprint system for time attendance and simple access control.`,
     price: 'Request Quote',
     features: ['Users: 2,200', 'Access Control Interface', 'TCP/IP'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/u460.png',
+    imageUrl: '/images/u460.png',
     specifications: { 'Dimensions': '189x136x44mm', 'Sensor': '500 DPI Optical' }
   },
   {
@@ -653,7 +653,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Robust IP65 rated fingerprint reader for outdoor access control. Metal casing.`,
     price: 'Request Quote',
     features: ['IP65 Waterproof', 'Metal Casing', 'RS485 & TCP/IP'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/MA500.png',
+    imageUrl: '/images/MA500.png',
     specifications: { 'Dimensions': '83x127.5x74mm', 'Power': '12V DC' }
   },
   {
@@ -664,7 +664,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Supports 8000 fingerprints. Feature rich time attendance terminal.`,
     price: 'Request Quote',
     features: ['Users: 8000', '3.5 inch TFT Screen', 'TCP/IP'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/iClock360-.png',
+    imageUrl: '/images/iClock360-.png',
     specifications: { 'Dimensions': '190x140x46mm', 'Power': '12V DC' }
   },
   {
@@ -675,7 +675,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact standalone fingerprint reader for door control. RS485 interface.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 500', 'RS485', 'Access Control Interface'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/F6.png',
+    imageUrl: '/images/F6.png',
     specifications: { 'Sensor': '500 DPI Optical', 'Comm': 'RS485, SD Card' }
   },
   {
@@ -686,7 +686,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Fingerprint time attendance with built-in WiFi. Easy installation.`,
     price: 'Request Quote',
     features: ['WiFi, TCP/IP, USB', 'Push Data Standard', 'Color TFT'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/iClock-990-1.png',
+    imageUrl: '/images/iClock-990-1.png',
     specifications: { 'Dimensions': '213x149x46mm', 'Power': '5V DC 2A' }
   },
   {
@@ -697,7 +697,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Self Service Recorder (SSR) time attendance terminal. Generates reports directly.`,
     price: 'Request Quote',
     features: ['Fingerprint Capacity: 800', 'SSR Excel Reports', 'Battery Backup'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/k21.png',
+    imageUrl: '/images/k21.png',
     specifications: { 'Dimensions': '185x138x45mm', 'Power': '5V DC' }
   },
   {
@@ -708,7 +708,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Efficient flap barrier for pedestrian control. Smooth operation and durable SUS304 housing.`,
     price: 'Request Quote',
     features: ['Throughput: 35 p/m', 'SUS304 Stainless Steel', 'Anti-clipping function'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FBTL119.png',
+    imageUrl: '/images/FBTL119.png',
     specifications: { 'Dimensions': '800x280x960mm', 'Passage Width': '≤ 550mm' }
   },
   {
@@ -719,7 +719,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `High-end flap barrier with acrylic wings and LED indicators. Suitable for corporate lobbies.`,
     price: 'Request Quote',
     features: ['SUS304 Stainless Steel', 'LED Indicator', 'MCBF: 2 million'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FBTL2200.png',
+    imageUrl: '/images/FBTL2200.png',
     specifications: { 'Dimensions': '1200x280x980mm', 'Lane Width': '550mm' }
   },
   {
@@ -730,7 +730,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Reliable flap barrier for high traffic areas. Retracting barrier movement.`,
     price: 'Request Quote',
     features: ['Retracting Barrier', 'Emergency Mode', 'Indoor/Outdoor'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FBTL2000.png',
+    imageUrl: '/images/FBTL2000.png',
     specifications: { 'Dimensions': '1200x280x980mm', 'Net Weight': '100kg' }
   },
   {
@@ -741,7 +741,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Wide passage (900mm) flap barrier for wheelchair access or luggage.`,
     price: 'Request Quote',
     features: ['Passage Width: 900mm', 'Throughput: 35 p/m', 'Anti-clipping'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/fbtl219900mm.png',
+    imageUrl: '/images/fbtl219900mm.png',
     specifications: { 'Power': '30W', 'Voltage': '24V' }
   },
   {
@@ -752,7 +752,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Single lane wide passage flap barrier. Ideal for accessible entrances.`,
     price: 'Request Quote',
     features: ['Passage Width: 900mm', 'SUS304 Housing', 'DC Drive'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/fbtl119900mm.png',
+    imageUrl: '/images/fbtl119900mm.png',
     specifications: { 'Dimensions': '800x280x960mm', 'Throughput': '35 p/m' }
   },
   {
@@ -763,7 +763,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact design for tight spaces. Reliable performance and elegant look.`,
     price: 'Request Quote',
     features: ['Passage Width: 550mm', 'Throughput: 35 p/m', 'Bi-directional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FBTL219.png',
+    imageUrl: '/images/FBTL219.png',
     specifications: { 'Dimensions': '800x280x960mm', 'Power': '30W' }
   },
   {
@@ -774,7 +774,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Cost effective flap barrier solution. Durable and efficient for mass transit.`,
     price: 'Request Quote',
     features: ['MCBF: 3 Million', 'IP44 Rating', 'Acrylic Barrier'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FB-E-2000.png',
+    imageUrl: '/images/FB-E-2000.png',
     specifications: { 'Dimensions': '1200x280x980mm', 'Weight': '52kg' }
   },
   {
@@ -785,7 +785,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Upgraded economic series with better finish and durability.`,
     price: 'Request Quote',
     features: ['MCBF: 3 Million', 'LED Indicator', 'Emergency Mode'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FB-E-2200-1.png',
+    imageUrl: '/images/FB-E-2200-1.png',
     specifications: { 'Dimensions': '1200x280x980mm', 'Pass Width': '550mm' }
   },
   {
@@ -796,7 +796,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `High performance flap barrier with brushless motor. 5 million MCBF.`,
     price: 'Request Quote',
     features: ['Brushless Motor', 'MCBF: 5 Million', '6 Pairs Sensors'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/fb-y-1000-removebg-preview.png',
+    imageUrl: '/images/fb-y-1000-removebg-preview.png',
     specifications: { 'Dimensions': '1400*280*950mm', 'IP Rating': '56' }
   },
   {
@@ -807,7 +807,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Designed for multi-lane configurations. Smooth and quiet operation.`,
     price: 'Request Quote',
     features: ['Brushless Motor', 'MCBF: 5 Million', 'Anti-tail function'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FB-Y-1200-removebg-preview.png',
+    imageUrl: '/images/FB-Y-1200-removebg-preview.png',
     specifications: { 'Dimensions': '1400*280*950mm', 'Pass Width': '550mm' }
   },
   {
@@ -818,7 +818,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Swing barrier with acrylic arms. Suitable for bidirectional traffic.`,
     price: 'Request Quote',
     features: ['Throughput: 30 p/m', 'Bi-directional', 'Anti-clipping'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SB-TL-129.png',
+    imageUrl: '/images/SB-TL-129.png',
     specifications: { 'Dimensions': '800x480x980mm', 'Pass Width': '550mm' }
   },
   {
@@ -829,7 +829,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Wide lane swing barrier for handicapped access. Elegant design.`,
     price: 'Request Quote',
     features: ['Pass Width: 600-900mm', 'Throughput: 40 p/m', 'IP54'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/sb-q-3200-900mm.png',
+    imageUrl: '/images/sb-q-3200-900mm.png',
     specifications: { 'Dimensions': '1400x185x1020mm', 'Net Weight': '99kg' }
   },
   {
@@ -840,7 +840,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Premium swing barrier with 900mm passage. High throughput.`,
     price: 'Request Quote',
     features: ['Pass Width: 900mm', 'Throughput: 40 p/m', 'IP54'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/sb-q-3000-900mm.png',
+    imageUrl: '/images/sb-q-3000-900mm.png',
     specifications: { 'Dimensions': '1400x185x1020mm', 'Power': '50W' }
   },
   {
@@ -851,7 +851,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Reliable swing barrier for standard width passage. Stainless steel body.`,
     price: 'Request Quote',
     features: ['Pass Width: 600mm', 'Throughput: 40 p/m', 'IP54'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SBQ3200_1.png',
+    imageUrl: '/images/SBQ3200_1.png',
     specifications: { 'Dimensions': '1400x185x1020mm', 'Net Weight': '99kg' }
   },
   {
@@ -862,7 +862,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Classic design swing barrier. Efficient for high traffic zones.`,
     price: 'Request Quote',
     features: ['Pass Width: 600mm', 'Throughput: 40 p/m', 'IP54'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SBQ3000.png',
+    imageUrl: '/images/SBQ3000.png',
     specifications: { 'Dimensions': '1400x185x1020mm', 'Power': '50W' }
   },
   {
@@ -873,7 +873,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Fast operating swing barrier (0.2s). Brushed motor drive.`,
     price: 'Request Quote',
     features: ['Operating Time: 0.2s', 'MCBF: 5 Million', '4 Pairs Infrared'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SB-ES-3012-2New.png',
+    imageUrl: '/images/SB-ES-3012-2New.png',
     specifications: { 'Dimensions': '1200*185*980mm', 'Pass Width': '600mm' }
   },
   {
@@ -884,7 +884,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Efficient and durable swing barrier. 5 million cycles MCBF.`,
     price: 'Request Quote',
     features: ['Operating Time: 0.2s', 'MCBF: 5 Million', 'Transparent Acrylic Arm'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SB-ES-3012-removebg-preview.png',
+    imageUrl: '/images/SB-ES-3012-removebg-preview.png',
     specifications: { 'Dimensions': '1200*185*980mm', 'Pass Width': '600mm' }
   },
   {
@@ -895,7 +895,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Advanced swing barrier with multiple control modes. Precise positioning sensors.`,
     price: 'Request Quote',
     features: ['Unlock Time: 0.2s', 'Throughput: 35 p/m', 'Multiple Control Modes'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SB-Q-4000.png',
+    imageUrl: '/images/SB-Q-4000.png',
     specifications: { 'Dimensions': '1500x180x1020mm', 'IP Level': '44' }
   },
   {
@@ -906,7 +906,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact cylindrical swing barrier. Ideal for aesthetic entrances.`,
     price: 'Request Quote',
     features: ['Pass Rate: 20-25 p/m', 'Operating Time: 0.2s', 'Stainless Steel Frame'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/SB-SPL-310.png',
+    imageUrl: '/images/SB-SPL-310.png',
     specifications: { 'Dimensions': '200*200*980mm', 'Pass Width': '600mm' }
   },
   {
@@ -917,7 +917,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Guard patrol system with fingerprint verification. Ensures guards are actually present.`,
     price: 'Request Quote',
     features: ['Storage: 60,000', 'Fingerprint Verification', 'Impact Detect'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/Fingerprint-Guard-Patrol-1.png',
+    imageUrl: '/images/Fingerprint-Guard-Patrol-1.png',
     specifications: { 'Comm': 'USB', 'Battery': '3.7V Li-ion' }
   },
   {
@@ -928,7 +928,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Standard tripod turnstile for access control. Compact and reliable.`,
     price: 'Request Quote',
     features: ['Throughput: 35 p/m', 'Bi-directional', 'IP44 Rating'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/ET1000.png',
+    imageUrl: '/images/ET1000.png',
     specifications: { 'Dimensions': '480x280x980mm', 'Pass Width': '520mm' }
   },
   {
@@ -939,7 +939,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Space saving tripod turnstile. Stainless steel housing.`,
     price: 'Request Quote',
     features: ['Pass Rate: 20-25 p/m', 'MCBF: 3 Million', 'Semi-auto Mode'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/DT2000.png',
+    imageUrl: '/images/DT2000.png',
     specifications: { 'Dimensions': '200*200*980mm', 'Pass Width': '≤550mm' }
   },
   {
@@ -950,7 +950,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Robust half-height turnstile for stadiums and factories. High durability.`,
     price: 'Request Quote',
     features: ['MCBF: 5 Million', 'Pass Rate: 30-35 p/m', 'Stainless Steel'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/HHT-TL-139.png',
+    imageUrl: '/images/HHT-TL-139.png',
     specifications: { 'Size': '1600*1400*1100mm', 'Pass Width': '600mm' }
   },
   {
@@ -961,7 +961,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Double lane full height turnstile for maximum security. Waterproof seal.`,
     price: 'Request Quote',
     features: ['Double Door', 'MCBF: 5 Million', 'Bi-directional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FHT-TL-249.png',
+    imageUrl: '/images/FHT-TL-249.png',
     specifications: { 'Frame': '304 Stainless Steel', 'Traffic Speed': '25 p/m' }
   },
   {
@@ -972,7 +972,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Secure double door full height turnstile. Ideal for perimeter control.`,
     price: 'Request Quote',
     features: ['Double Door', 'MCBF: 5 Million', 'Waterproof'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FHT-TL-239.png',
+    imageUrl: '/images/FHT-TL-239.png',
     specifications: { 'Frame': '304 Stainless Steel', 'Traffic Speed': '25 p/m' }
   },
   {
@@ -983,7 +983,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Single lane full height turnstile. High security access control.`,
     price: 'Request Quote',
     features: ['Single Door', 'MCBF: 5 Million', 'IP44 Rating'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FHT-TL-149.png',
+    imageUrl: '/images/FHT-TL-149.png',
     specifications: { 'Dimensions': '1630x1500x2310mm', 'Weight': '220kg' }
   },
   {
@@ -994,7 +994,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Durable single lane full height turnstile. Corrosion protected frame.`,
     price: 'Request Quote',
     features: ['Single Door', 'MCBF: 5 Million', 'Hydraulic Damper'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FHT-TL-139.png',
+    imageUrl: '/images/FHT-TL-139.png',
     specifications: { 'Dimensions': '1630x1500x2310mm', 'Weight': '220kg' }
   },
   {
@@ -1005,7 +1005,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Double lane full height turnstile with mechanical locking. Precise movement.`,
     price: 'Request Quote',
     features: ['Double Lane', 'Anti-reverse', 'Fire Safety Mode'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FHT-TL-232.png',
+    imageUrl: '/images/FHT-TL-232.png',
     specifications: { 'Dimensions': '2200x1500x2200mm', 'Pass Width': '650mm' }
   },
   {
@@ -1016,7 +1016,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Single lane full height turnstile. Secure and reliable.`,
     price: 'Request Quote',
     features: ['Single Lane', 'Anti-reverse', 'Fire Safety Mode'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/FHT-TL-132.png',
+    imageUrl: '/images/FHT-TL-132.png',
     specifications: { 'Dimensions': '1500x1450x2250mm', 'Pass Width': '650mm' }
   },
   {
@@ -1027,7 +1027,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Automatic tripod turnstile for heavy duty use. 80kg arm tolerance.`,
     price: 'Request Quote',
     features: ['Heavy Duty', 'Full-Auto Mode', 'IP44 Rating'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/ETA-2000.png',
+    imageUrl: '/images/ETA-2000.png',
     specifications: { 'Dimensions': '1200x280x980mm', 'Pass Width': '520mm' }
   },
   {
@@ -1038,7 +1038,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Automatic tripod turnstile. Supports RFID and Fingerprint integration.`,
     price: 'Request Quote',
     features: ['Automatic Arms', 'RFID/Fingerprint Support', 'IP44'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/ET1000-1.png',
+    imageUrl: '/images/ET1000-1.png',
     specifications: { 'Weight': '44kg', 'Throughput': '35 p/m' }
   },
   {
@@ -1049,7 +1049,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Bridge type tripod turnstile. One-way or bi-directional operation.`,
     price: 'Request Quote',
     features: ['Bridge Design', 'Semi-automatic', '30,000 Users'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/ET2000-1.png',
+    imageUrl: '/images/ET2000-1.png',
     specifications: { 'Dimensions': '1200x280x980mm', 'Material': 'SUS 304' }
   },
   {
@@ -1060,7 +1060,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact heavy duty turnstile. Integrated access controller support.`,
     price: 'Request Quote',
     features: ['Heavy Duty', 'Integrated Controller', 'RFID/Fingerprint'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/ET1200.png',
+    imageUrl: '/images/ET1200.png',
     specifications: { 'Dimensions': '480x560x960mm', 'Weight': '60kg' }
   },
   {
@@ -1071,7 +1071,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `High performance DC brushless boom barrier. Adjustable speed and interchangeable arm direction.`,
     price: 'Request Quote',
     features: ['DC Brushless Motor', '1.5s-6s Speed', '6m Max Boom'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/BG-BDC-RL-100.png',
+    imageUrl: '/images/BG-BDC-RL-100.png',
     specifications: { 'Motor Power': '160W', 'MCBF': '5 million' }
   },
   {
@@ -1082,7 +1082,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Heavy duty tyre killer for high security vehicle access. 80T load capacity.`,
     price: 'Request Quote',
     features: ['80T Load', 'IP67 Rated', '3m Length'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/TK-300.png',
+    imageUrl: '/images/TK-300.png',
     specifications: { 'Spike Height': '150mm', 'Material': 'A3 Steel' }
   },
   {
@@ -1093,7 +1093,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact X-Ray scanner for bags and parcels. High penetration and resolution.`,
     price: 'Request Quote',
     features: ['Tunnel: 500x300mm', 'Conveyor Load: 100kg', 'Penetration: >8mm Steel'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/eBS-5030A.png',
+    imageUrl: '/images/eBS-5030A.png',
     specifications: { 'Dimensions': '1500x770x1100mm', 'Anode Voltage': '80 KV' }
   },
   {
@@ -1104,7 +1104,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Single zone walk-through metal detector. Detects ferrous metals.`,
     price: 'Request Quote',
     features: ['Single Zone', 'Adjustable Sensitivity', 'Ferrous Only'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D2401.png',
+    imageUrl: '/images/D2401.png',
     specifications: { 'Sensitivity': '≥200g Metal', 'Power': '12W' }
   },
   {
@@ -1115,7 +1115,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Convenient handheld detector. Sound and light alarm.`,
     price: 'Request Quote',
     features: ['Handheld', 'Sound/Vibration Alarm', 'Rechargeable'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D100S.png',
+    imageUrl: '/images/D100S.png',
     specifications: { 'Dimensions': '401x85x45mm', 'Freq': '40KHz' }
   },
   {
@@ -1126,7 +1126,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Lightweight handheld detector. Detects ferrous metals.`,
     price: 'Request Quote',
     features: ['Handheld', 'Sound/Light Alarm', 'Ferrous Only'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/HM-300.png',
+    imageUrl: '/images/HM-300.png',
     specifications: { 'Dimensions': '340x140x30mm', 'Weight': '180g' }
   },
   {
@@ -1137,7 +1137,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `33 zone high sensitivity walk-through detector. Precise detection.`,
     price: 'Request Quote',
     features: ['33 Zones', 'Ferrous Only', 'High Precision'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D9033.png',
+    imageUrl: '/images/D9033.png',
     specifications: { 'Sensitivity': '≥10g Metal', 'Power': '20W' }
   },
   {
@@ -1148,7 +1148,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `18 zone walk-through detector for accurate location.`,
     price: 'Request Quote',
     features: ['18 Zones', 'Ferrous Only', 'Precision Detection'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D9018.png',
+    imageUrl: '/images/D9018.png',
     specifications: { 'Sensitivity': '≥10g Metal', 'Power': '20W' }
   },
   {
@@ -1159,7 +1159,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `6 zone walk-through detector. Ferrous metal detection.`,
     price: 'Request Quote',
     features: ['6 Zones', 'Ferrous Only', 'Basic Security'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D9006.png',
+    imageUrl: '/images/D9006.png',
     specifications: { 'Sensitivity': '≥30g Metal', 'Power': '20W' }
   },
   {
@@ -1170,7 +1170,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `6 zone detector with adjustable sensitivity. Ferrous detection.`,
     price: 'Request Quote',
     features: ['6 Zones', 'Adjustable Sensitivity', 'Ferrous Only'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D2406.png',
+    imageUrl: '/images/D2406.png',
     specifications: { 'Sensitivity': '≥200g Metal', 'Power': '12W' }
   },
   {
@@ -1181,7 +1181,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `High sensitivity handheld scanner. Rugged design.`,
     price: 'Request Quote',
     features: ['High Sensitivity', 'Rugged Design', 'Rechargeable'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/HM100180.png',
+    imageUrl: '/images/HM100180.png',
     specifications: { 'Dimensions': '415x85x45mm', 'Weight': '400g' }
   },
   {
@@ -1192,7 +1192,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Professional handheld detector with double alarm mode.`,
     price: 'Request Quote',
     features: ['Double Alarm', 'Light Indicator', 'Long Battery Life'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/HM520Pro.png',
+    imageUrl: '/images/HM520Pro.png',
     specifications: { 'Dimensions': '286x64x34mm', 'Weight': '230g' }
   },
   {
@@ -1203,7 +1203,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `6 zone detector with 7 inch LCD touchscreen.`,
     price: 'Request Quote',
     features: ['6 Zones', '7-inch LCD Touchscreen', 'High Precision'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D4006.png',
+    imageUrl: '/images/D4006.png',
     specifications: { 'Dimensions': '2200x850x430mm', 'Input': 'AC 100-240V' }
   },
   {
@@ -1214,7 +1214,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Outdoor ready 63 zone metal detector. High weatherproof rating.`,
     price: 'Request Quote',
     features: ['63 Zones', 'IP65 Waterproof', 'Outdoor Use'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D518-63-IP65-removebg-preview.png',
+    imageUrl: '/images/D518-63-IP65-removebg-preview.png',
     specifications: { 'Passage Size': '2010x720x630mm', 'Weight': '46kg' }
   },
   {
@@ -1225,7 +1225,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Weatherproof 33 zone detector for accurate screening.`,
     price: 'Request Quote',
     features: ['33 Zones', 'IP65 Waterproof', 'Accurate'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D330-33-IP65-removebg-preview.png',
+    imageUrl: '/images/D330-33-IP65-removebg-preview.png',
     specifications: { 'Passage Size': '2007x720x446mm', 'Weight': '35kg' }
   },
   {
@@ -1236,7 +1236,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Weatherproof 18 zone detector.`,
     price: 'Request Quote',
     features: ['18 Zones', 'IP65 Waterproof', 'Outdoor Use'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D330-18-IP65-removebg-preview.png',
+    imageUrl: '/images/D330-18-IP65-removebg-preview.png',
     specifications: { 'Passage Size': '2007x720x446mm', 'Weight': '35kg' }
   },
   {
@@ -1247,7 +1247,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact weatherproof 18 zone detector.`,
     price: 'Request Quote',
     features: ['18 Zones', 'IP65 Waterproof', 'Compact'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D270-removebg-preview.png',
+    imageUrl: '/images/D270-removebg-preview.png',
     specifications: { 'Passage Size': '2017x720x349mm', 'Weight': '21kg' }
   },
   {
@@ -1258,7 +1258,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Standard 18 zone detector with IP54 rating.`,
     price: 'Request Quote',
     features: ['18 Zones', 'IP54 Rating', 'Standard Use'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D270-1-removebg-preview.png',
+    imageUrl: '/images/D270-1-removebg-preview.png',
     specifications: { 'Passage Size': '2017x720x349mm', 'Weight': '21kg' }
   },
   {
@@ -1269,7 +1269,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `9 zone detector for basic screening needs.`,
     price: 'Request Quote',
     features: ['9 Zones', 'IP54 Rating', 'Basic Screening'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D270-1-removebg-preview-1.png',
+    imageUrl: '/images/D270-1-removebg-preview-1.png',
     specifications: { 'Passage Size': '2017x720x349mm', 'Weight': '21kg' }
   },
   {
@@ -1280,7 +1280,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Single panel 6 zone digital metal detector.`,
     price: 'Request Quote',
     features: ['6 Zones', 'Single Panel', 'Digital'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/d468-6-1-removebg-preview.png',
+    imageUrl: '/images/d468-6-1-removebg-preview.png',
     specifications: { 'External Size': '2203x580x117mm', 'Weight': '19kg' }
   },
   {
@@ -1291,7 +1291,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Single zone detector with IP54 rating.`,
     price: 'Request Quote',
     features: ['Single Zone', 'IP54 Rating', 'Simple'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/D270-1-removebg-preview-1.png',
+    imageUrl: '/images/D270-1-removebg-preview-1.png',
     specifications: { 'Passage Size': '2017x720x349mm', 'Weight': '21kg' }
   },
   {
@@ -1302,7 +1302,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Secure elevator access control. EC10 panel + EX16 floor extension boards.`,
     price: 'Request Quote',
     features: ['10-Floor Control', 'Fingerprint/RFID', 'Expandable'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EC10-EX16.png',
+    imageUrl: '/images/EC10-EX16.png',
     specifications: { 'Relays': '10', 'Capacity': '3000 Fingerprints' }
   },
   {
@@ -1313,7 +1313,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `IP-based 1 door access control panel. Supports 30,000 cards.`,
     price: 'Request Quote',
     features: ['1 Door', 'TCP/IP, RS485', '30,000 Users'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EC10-EX16-1.png',
+    imageUrl: '/images/EC10-EX16-1.png',
     specifications: { 'Inputs': '2', 'Outputs': '2' }
   },
   {
@@ -1324,7 +1324,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Professional 4 door controller. TCP/IP communication.`,
     price: 'Request Quote',
     features: ['4 Doors', 'TCP/IP', 'Advanced Access Control'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/eSSL-Access-8004.png',
+    imageUrl: '/images/eSSL-Access-8004.png',
     specifications: { 'Capacity': '30,000 Users', 'Logs': '100,000' }
   },
   {
@@ -1335,7 +1335,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Reliable 2 door access controller. 20,000 card capacity.`,
     price: 'Request Quote',
     features: ['2 Doors', 'TCP/IP', 'Fire Linkage Optional'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/eSSL-Access-8002.png',
+    imageUrl: '/images/eSSL-Access-8002.png',
     specifications: { 'Capacity': '20,000 Cards', 'Readers': '4' }
   },
   {
@@ -1346,7 +1346,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Biometric access controller for 4 doors. Supports fingerprint readers directly.`,
     price: 'Request Quote',
     features: ['4 Doors', 'Biometric Support', 'Anti-passback'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/inBio-460.png',
+    imageUrl: '/images/inBio-460.png',
     specifications: { 'Fingerprint Capacity': '3000', 'Card Capacity': '30,000' }
   },
   {
@@ -1390,7 +1390,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Energy saving switch for hotel rooms. Mifare card activation.`,
     price: 'Request Quote',
     features: ['Mifare Card', '30A Load', '12s Delay'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/Energy_Saving_Switch.png',
+    imageUrl: '/images/Energy_Saving_Switch.png',
     specifications: { 'Voltage': 'AC220V/110V', 'Power': '22W' }
   },
   {
@@ -1401,7 +1401,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `USB RFID encoder for issuing hotel cards.`,
     price: 'Request Quote',
     features: ['USB Interface', 'ISO 14443', 'Mifare Classic'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/RFID-Encoder.png',
+    imageUrl: '/images/RFID-Encoder.png',
     specifications: { 'Dimensions': '120.5x72x20.4mm', 'Weight': '140g' }
   },
   {
@@ -1412,7 +1412,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Mifare 4K card for hotel applications. Large memory.`,
     price: 'Request Quote',
     features: ['4K Memory', '13.56 MHz', 'Contactless'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/S70.png',
+    imageUrl: '/images/S70.png',
     specifications: { 'Freq': '13.56 MHz', 'Transfer': '106 kbit/s' }
   },
   {
@@ -1423,7 +1423,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Standard Mifare 1K card for guest access.`,
     price: 'Request Quote',
     features: ['1K Memory', '13.56 MHz', 'Contactless'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/S50.png',
+    imageUrl: '/images/S50.png',
     specifications: { 'Freq': '13.56 MHz', 'Transfer': '106 kbit/s' }
   },
   {
@@ -1434,7 +1434,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Handheld unit for programming and auditing hotel locks.`,
     price: 'Request Quote',
     features: ['Portable', 'Battery Powered', 'Audit Trail'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/HANDHELD-SERVICE-UNIT.png',
+    imageUrl: '/images/HANDHELD-SERVICE-UNIT.png',
     specifications: { 'Dimensions': '155x80x28mm', 'Battery': '4x AA' }
   },
   {
@@ -1445,7 +1445,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Robust stainless steel hotel lock. RFID technology.`,
     price: 'Request Quote',
     features: ['SUS304 Stainless Steel', 'RFID', 'Fire Approved'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/HL100.png',
+    imageUrl: '/images/HL100.png',
     specifications: { 'Power': '4x AA Batteries', 'Door Thickness': '35-80mm' }
   },
   {
@@ -1456,7 +1456,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `600lbs holding force EM lock with LED monitor.`,
     price: 'Request Quote',
     features: ['Holding Force: 280KG', 'LED Monitor', '12V DC'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EML600-7-2-1.png',
+    imageUrl: '/images/EML600-7-2-1.png',
     specifications: { 'Dimensions': '250x48x26mm', 'Current': '400mA' }
   },
   {
@@ -1467,7 +1467,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Reliable EM lock with bond sensor and status LED.`,
     price: 'Request Quote',
     features: ['Holding Force: 280KG', 'Bond Sensor', 'Anodized Housing'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/STRL50-2.png',
+    imageUrl: '/images/STRL50-2.png',
     specifications: { 'Dimensions': '250x48x26mm', 'Current': '400mA' }
   },
   {
@@ -1478,7 +1478,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Stainless steel electric rim lock for gates and doors.`,
     price: 'Request Quote',
     features: ['Stainless Steel', 'Key/Switch Unlock', '12V DC'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/BL99-7.png',
+    imageUrl: '/images/BL99-7.png',
     specifications: { 'Size': '123x105x37mm', 'Current': '1.5-3A' }
   },
   {
@@ -1489,7 +1489,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Electric strike with time delay and feedback.`,
     price: 'Request Quote',
     features: ['Fail Safe', 'Time Delay', 'Feedback Output'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/BL5-7.png',
+    imageUrl: '/images/BL5-7.png',
     specifications: { 'Face Plate': '207x35x41mm', 'Voltage': '12VDC' }
   },
   {
@@ -1500,7 +1500,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Electric strike for narrow wooden or metal doors.`,
     price: 'Request Quote',
     features: ['Narrow Design', 'Fail Secure', 'Zinc Alloy'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/STRL-240-7.png',
+    imageUrl: '/images/STRL-240-7.png',
     specifications: { 'Dimensions': '150x34x28mm', 'Voltage': '12VDC' }
   },
   {
@@ -1511,7 +1511,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `5 wire electromagnetic lock with feedback.`,
     price: 'Request Quote',
     features: ['5 Wires', '280KG Holding', '12V'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EML600-7-5.png',
+    imageUrl: '/images/EML600-7-5.png',
     specifications: { 'Dimensions': '250x48x27mm', 'Weight': '1.9KG' }
   },
   {
@@ -1522,7 +1522,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Stainless steel square exit button.`,
     price: 'Request Quote',
     features: ['Stainless Steel', 'Square', 'NO/COM'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/7-Pushbutton-SQ.png',
+    imageUrl: '/images/7-Pushbutton-SQ.png',
     specifications: { 'Dimensions': '86x86mm', 'Rating': '3A@36VDC' }
   },
   {
@@ -1533,7 +1533,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Stainless steel rectangular exit button.`,
     price: 'Request Quote',
     features: ['Stainless Steel', 'Rectangular', 'NO/COM'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/7-Pushbutton-RC.png',
+    imageUrl: '/images/7-Pushbutton-RC.png',
     specifications: { 'Dimensions': '92x29mm', 'Rating': '3A@36VDC' }
   },
   {
@@ -1544,7 +1544,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Touchless exit button with adjustable range.`,
     price: 'Request Quote',
     features: ['No Touch', 'Adjustable Range', 'LED Indicator'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/7-No-Touch-K1-1.png',
+    imageUrl: '/images/7-No-Touch-K1-1.png',
     specifications: { 'Dimensions': '86x86x28mm', 'Input': '12V DC' }
   },
   {
@@ -1555,7 +1555,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Touchless exit sensor.`,
     price: 'Request Quote',
     features: ['No Touch', 'Adjustable Range', 'LED Indicator'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/7-No-Touch-K1-1.png',
+    imageUrl: '/images/7-No-Touch-K1-1.png',
     specifications: { 'Dimensions': '115x70mm', 'Input': '12V DC' }
   },
   {
@@ -1566,7 +1566,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `U bracket for installing 280kg EM locks on glass doors.`,
     price: 'Request Quote',
     features: ['Glass Door Mount', 'For 280kg Lock'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/u-bracket-7.png',
+    imageUrl: '/images/u-bracket-7.png',
     specifications: { 'Type': 'U Bracket' }
   },
   {
@@ -1577,7 +1577,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Z & L bracket set for inward opening doors.`,
     price: 'Request Quote',
     features: ['Inward Door', 'For 280kg Lock'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/ZL-bracket.png',
+    imageUrl: '/images/ZL-bracket.png',
     specifications: { 'Material': 'Aluminum' }
   },
   {
@@ -1588,7 +1588,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Double electromagnetic lock for double doors. 280kg x 2.`,
     price: 'Request Quote',
     features: ['Double Door', '280kg x 2', 'LED Monitor'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/EML600D7-2-removebg-preview.png',
+    imageUrl: '/images/EML600D7-2-removebg-preview.png',
     specifications: { 'Holding Force': '280KG x 2', 'Voltage': '12V DC' }
   },
   {
@@ -1599,7 +1599,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Standard 8-series electromagnetic lock.`,
     price: 'Request Quote',
     features: ['280KG Holding', '12V'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/8-EML-600.png',
+    imageUrl: '/images/8-EML-600.png',
     specifications: { 'Dimensions': '250x48x27mm', 'Weight': '1.9KG' }
   },
   {
@@ -1610,7 +1610,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Aluminum U bracket for frameless glass doors.`,
     price: 'Request Quote',
     features: ['Glass Door', 'High Strength Aluminum'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/8-BL99-U-removebg-preview.png',
+    imageUrl: '/images/8-BL99-U-removebg-preview.png',
     specifications: { 'Dimensions': '145.5x40x37.5mm' }
   },
   {
@@ -1621,7 +1621,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Stainless steel square exit button.`,
     price: 'Request Quote',
     features: ['Stainless Steel', 'Square'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/7-Pushbutton-SQ.png',
+    imageUrl: '/images/7-Pushbutton-SQ.png',
     specifications: { 'Dimensions': '86x86x40mm', 'Voltage': '12V' }
   },
   {
@@ -1632,7 +1632,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Stainless steel rectangular exit button.`,
     price: 'Request Quote',
     features: ['Stainless Steel', 'Rectangular'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/7-Pushbutton-RC.png',
+    imageUrl: '/images/7-Pushbutton-RC.png',
     specifications: { 'Dimensions': '92x29mm', 'Rating': '3A' }
   },
   {
@@ -1643,7 +1643,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Wireless remote control switch kit.`,
     price: 'Request Quote',
     features: ['Wireless', '433.92MHz', '30m Range'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/8-MRC-80.png',
+    imageUrl: '/images/8-MRC-80.png',
     specifications: { 'Voltage': '12V/24V', 'Output': 'Relay' }
   },
   {
@@ -1654,7 +1654,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Square touchless exit button.`,
     price: 'Request Quote',
     features: ['No Touch', 'Adjustable Range', 'LED'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/8-NoTouch-K2.png',
+    imageUrl: '/images/8-NoTouch-K2.png',
     specifications: { 'Dimensions': '86x86x16mm', 'Input': '12-24V' }
   },
   {
@@ -1665,7 +1665,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Rectangular touchless exit button.`,
     price: 'Request Quote',
     features: ['No Touch', 'Adjustable Range', 'LED'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/7-No-Touch-K1-1-2.png',
+    imageUrl: '/images/7-No-Touch-K1-1-2.png',
     specifications: { 'Dimensions': '115x70x16mm', 'Input': '12-24V' }
   },
   {
@@ -1676,7 +1676,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Electric lock for left hand doors.`,
     price: 'Request Quote',
     features: ['Left Hand', '12V DC'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/BL99-7.png',
+    imageUrl: '/images/BL99-7.png',
     specifications: { 'Dimensions': '148x43x39mm' }
   },
   {
@@ -1687,7 +1687,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Electric lock for right hand doors.`,
     price: 'Request Quote',
     features: ['Right Hand', '12V DC'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/BL99-7.png',
+    imageUrl: '/images/BL99-7.png',
     specifications: { 'Dimensions': '148x43x39mm' }
   },
   {
@@ -1698,7 +1698,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Electric drop bolt lock.`,
     price: 'Request Quote',
     features: ['Drop Bolt', 'Fail Safe'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2024/09/8-BL-2-removebg-preview.png',
+    imageUrl: '/images/8-BL-2-removebg-preview.png',
     specifications: { 'Dimensions': '200x34x42mm', 'Power': '12V' }
   },
   {
@@ -1709,7 +1709,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `2.4 inch screen facial terminal. Dual core CPU.`,
     price: 'Request Quote',
     features: ['Dual Core CPU', 'Binocular Camera', 'Linux'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2025/04/1.webp',
+    imageUrl: '/images/1.webp',
     specifications: { 'Screen': '2.4 inch', 'RAM': '512MB' }
   },
   {
@@ -1720,7 +1720,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Multi-biometric terminal with 5 inch screen.`,
     price: 'Request Quote',
     features: ['Face/Finger/Card', '5-inch Screen', 'Linux'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2025/04/SpeedFace-M4-Visible-Light-Facial-and-Palm-Recognition-Terminal.jpg',
+    imageUrl: '/images/SpeedFace-M4-Visible-Light-Facial-and-Palm-Recognition-Terminal.jpg',
     specifications: { 'Display': '5-Inch', 'Camera': '2MP WDR' }
   },
   {
@@ -1731,7 +1731,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Face recognition with HID card support.`,
     price: 'Request Quote',
     features: ['HID Card Support', 'Face/Finger', 'Linux'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2025/04/2.jpg',
+    imageUrl: '/images/2.jpg',
     specifications: { 'Display': '5-Inch', 'Camera': '2MP WDR' }
   },
   {
@@ -1742,7 +1742,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Visible light facial recognition with HID support.`,
     price: 'Request Quote',
     features: ['HID Card', 'Visible Light', 'Anti-spoofing'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2025/04/2.jpg',
+    imageUrl: '/images/2.jpg',
     specifications: { 'Verification': 'Face/HID/Pwd' }
   },
   {
@@ -1753,7 +1753,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Compact 4-inch terminal for face and fingerprint access.`,
     price: 'Request Quote',
     features: ['4-inch Touch', 'Face/Finger', '3000 Users'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2025/04/3.webp',
+    imageUrl: '/images/3.webp',
     specifications: { 'Display': '4-inch', 'Camera': '2MP' }
   },
   {
@@ -1764,7 +1764,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `ERIS model with HID card support.`,
     price: 'Request Quote',
     features: ['HID Card', '4-inch Touch', 'Face/Finger'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2025/04/4.webp',
+    imageUrl: '/images/4.webp',
     specifications: { 'Display': '4-inch', 'Camera': '2MP' }
   },
   {
@@ -1775,7 +1775,7 @@ export const PRODUCTS: Product[] = [
     fullDescription: `Advanced terminal with Face and QR code scanning capabilities.`,
     price: 'Request Quote',
     features: ['QR Code', 'Face/Card', '5-inch Screen'],
-    imageUrl: 'https://tsttechnologies.com/wp-content/uploads/2025/04/5.webp',
+    imageUrl: '/images/5.webp',
     specifications: { 'Display': '5-Inch', 'CPU': '900MHz Dual Core' }
   }
 ];

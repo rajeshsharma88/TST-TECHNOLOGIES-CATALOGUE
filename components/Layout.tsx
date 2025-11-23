@@ -56,13 +56,32 @@ const Navbar: React.FC = () => {
           <div className="md:hidden flex items-center z-50">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-md text-white hover:bg-slate-800 border border-slate-700 focus:outline-none"
+              style={{
+                padding: '8px',
+                borderRadius: '6px',
+                backgroundColor: '#00ff00',
+                border: '3px solid #000000',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 4px 12px rgba(0,255,0,0.4)',
+                transition: 'all 0.2s'
+              }}
+              onMouseOver={(e) => {
+                e.currentTarget.style.backgroundColor = '#00dd00';
+                e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,255,0,0.6)';
+              }}
+              onMouseOut={(e) => {
+                e.currentTarget.style.backgroundColor = '#00ff00';
+                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,255,0,0.4)';
+              }}
               aria-label="Toggle menu"
             >
               {isOpen ? (
-                <X size={28} color="#ffffff" strokeWidth={2.5} />
+                <X size={28} color="#000000" strokeWidth={2.5} />
               ) : (
-                <Menu size={28} color="#ffffff" strokeWidth={2.5} />
+                <Menu size={28} color="#000000" strokeWidth={2.5} />
               )}
             </button>
           </div>

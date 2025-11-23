@@ -48,14 +48,34 @@ export const EnquiryModal: React.FC = () => {
         <div className="bg-slate-900 p-5 flex items-center justify-between shrink-0 border-b border-slate-800">
           <h3 className="text-xl font-bold text-white">Enquire Now</h3>
           
-          {/* Close Button - White background circle with dark X icon */}
+          {/* Close Button - Bright lime green background with dark green X */}
           <button 
             onClick={closeModal} 
-            className="flex items-center justify-center w-8 h-8 bg-white rounded-full hover:bg-gray-200 transition-colors focus:outline-none shadow-md"
+            style={{
+              width: '48px',
+              height: '48px',
+              backgroundColor: '#00ff00',
+              border: '3px solid #000000',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              cursor: 'pointer',
+              boxShadow: '0 4px 15px rgba(0,255,0,0.5)',
+              transition: 'all 0.2s'
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.backgroundColor = '#00dd00';
+              e.currentTarget.style.boxShadow = '0 6px 20px rgba(0,255,0,0.7)';
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.backgroundColor = '#00ff00';
+              e.currentTarget.style.boxShadow = '0 4px 15px rgba(0,255,0,0.5)';
+            }}
             aria-label="Close"
             type="button"
           >
-            <X size={20} color="#0f172a" strokeWidth={3} />
+            <X size={32} color="#004400" strokeWidth={4} />
           </button>
         </div>
 
